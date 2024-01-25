@@ -1,76 +1,137 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
 }
 
-header h1 {
-    margin: 0;
-}
-
-header nav a {
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-#hero {
-    padding: 80px 0;
-    background-image: url('img/055e4e82d548029f91d96c30499341fb.jpg');
-    background-size: cover;
-    background-position: center;
+nav {
     text-align: center;
-    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+
+
+.reservation-section {
+    text-align: center;
+    padding: 200px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#totalCost {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #hero h2 {
     margin-top: 0;
+    animation: fadeIn 1s ease;
 }
-
-#menu, #about, #contact {
-    padding: 40px;
+html {
+    scroll-behavior: smooth;
 }
+@media only screen and (max-width: 600px) {
+    #hero {
+        padding: 60px 0;
+    }
+    #menu, #about, #contact {
+        padding: 20px;
+    }
 
-#reservation-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
+}
+#contact {
+    background-color: #333; /* Set your desired background color */
     color: white;
-    text-decoration: none;
-    margin-top: 20px;
-}
-#menu {
     padding: 40px;
-    text-align: center; 
+    text-align: center;
 }
-
-.column {
-    display: inline-block;
-    margin: 10px;
-    text-align: left; 
-}
-
-.column img {
-    width: 100%; 
-}
-
-.column p {
-    margin-top: 10px;
-}
-#menu {
+#contact {
+    background-color: #333; /* Set your desired background color */
+    color: rgb(113, 5, 5);
     padding: 40px;
-    text-align: center; 
-    background-image: url('img/22e508dff8313e0d80705b899d50b95e.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    color: white; 
+    text-align: center;
 }

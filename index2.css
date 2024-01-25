@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#hero {
+    padding: 80px 0;
+    background-image: url('img/055e4e82d548029f91d96c30499341fb.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+#hero h2 {
+    margin-top: 0;
+}
+
+#menu, #about, #contact {
+    padding: 40px;
+}
+
+#reservation-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+#menu {
+    padding: 40px;
+    text-align: center; 
+}
+
+.column {
+    display: inline-block;
+    margin: 10px;
+    text-align: left; 
+}
+
+.column img {
+    width: 100%; 
+}
+
+.column p {
+    margin-top: 10px;
+}
+#menu {
+    padding: 40px;
+    text-align: center; 
+    background-image: url('img/22e508dff8313e0d80705b899d50b95e.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+}
